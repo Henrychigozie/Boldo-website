@@ -90,6 +90,7 @@ nav {
     left: 0;
     text-align: left;
     padding: 10px 0;
+        gap: 10px;
   }
 
   .nav-links li {
