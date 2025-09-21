@@ -802,7 +802,7 @@ nav.scrolled {
   color: black;
   border-radius: 10px;
   width: 400px;
-  height: 25vh;
+  height: 45vh;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
