@@ -662,7 +662,7 @@ nav.scrolled {
 .card2 .right2 h2{
   font-size: 39.8131px;
   max-width: 570px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .card2 .right2 ul li{
