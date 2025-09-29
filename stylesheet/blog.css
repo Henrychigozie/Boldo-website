@@ -16,7 +16,7 @@ nav {
   z-index: 20;
   position: fixed;
   width: 100%;
- top: 0;
+  top: 0;
 }
 
 .logo {
@@ -71,7 +71,6 @@ nav {
   font-size: 30px;
 }
 
-
 @media (max-width: 991px) {
   nav {
     flex-direction: column;
@@ -90,7 +89,7 @@ nav {
     left: 0;
     text-align: left;
     padding: 10px 0;
-        gap: 10px;
+    gap: 10px;
   }
 
   .nav-links li {
@@ -99,7 +98,6 @@ nav {
 
   .nav-links.show {
     display: flex;
-
   }
 
   .menu-toggle {
@@ -156,6 +154,7 @@ nav {
   align-items: center;
   gap: 15px;
   flex-wrap: wrap;
+  color: black;
 }
 
 .cta-form input {
@@ -212,7 +211,6 @@ nav {
   }
 }
 
-
 /* Footer Styling */
 footer {
   background: #fff;
@@ -227,10 +225,8 @@ footer {
   margin: auto;
 }
 
-
-
 .footer-logo p {
-  color: #5B7075;
+  color: #5b7075;
   font-size: 16px;
   line-height: 1.6;
   margin-top: 20px;
@@ -255,7 +251,6 @@ footer {
   text-decoration: none;
   color: #727272;
   font-size: 16px;
-
 }
 
 .footer-col ul li a:hover {
@@ -271,8 +266,8 @@ footer {
 }
 
 .hiring-badge {
-  background: #65E4A3;
-  color: #0A2640;
+  background: #65e4a3;
+  color: #0a2640;
   font-size: 16px;
   font-weight: 700;
   padding: 4px 10px;
@@ -306,13 +301,11 @@ footer {
   font-size: 16px;
 }
 
-
 @media (max-width: 964px) {
   .footer-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
 
 @media (max-width: 540px) {
   .footer-container {
@@ -328,5 +321,4 @@ footer {
     flex-direction: column;
     text-align: left;
   }
-
 }
