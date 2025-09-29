@@ -56,6 +56,11 @@ nav {
   cursor: pointer;
 }
 
+.login-btn a{
+  color: #0b2340;
+  text-decoration: none;
+}
+
 .login-btn:hover {
   background: #f1f1f1;
 }
